@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws InterruptedException {
+        MenuNav.Menu();
         Scanner scanner = new Scanner(System.in);
         UserManager userManager = new UserManager(new UserValidationManager());
 
